@@ -27,7 +27,7 @@
 #
 ######################################################################
 Name:           skelcd-control-openSUSE
-Version:        42.2.6
+Version:        42.3.0
 Release:        0
 Summary:        The openSUSE Installation Control file
 License:        MIT
@@ -121,7 +121,7 @@ install -m 644 control/$CONTROL_FILE %{buildroot}/CD1/control.xml
     sed -i -e "s,http://download.opensuse.org/distribution/,http://download.opensuse.org/ports/$ports_arch/distribution/," %{buildroot}/CD1/control.xml
     sed -i -e "s,http://download.opensuse.org/debug/,http://download.opensuse.org/ports/$ports_arch/debug/," %{buildroot}/CD1/control.xml
     sed -i -e "s,http://download.opensuse.org/source/,http://download.opensuse.org/ports/$ports_arch/source/," %{buildroot}/CD1/control.xml
-    sed -i -e "s,http://download.opensuse.org/update/leap/42.2/oss/,http://download.opensuse.org/ports/update/42.2/," %{buildroot}/CD1/control.xml
+    sed -i -e "s,http://download.opensuse.org/update/leap/42.3/oss/,http://download.opensuse.org/ports/update/42.3/," %{buildroot}/CD1/control.xml
     #we parse out non existing non-oss repo for ports
     xsltproc -o %{buildroot}/CD1/control_ports.xml control/nonoss.xsl %{buildroot}/CD1/control.xml
     mv %{buildroot}/CD1/control{_ports,}.xml

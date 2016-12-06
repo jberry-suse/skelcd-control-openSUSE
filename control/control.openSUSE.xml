@@ -89,24 +89,24 @@ textdomain="control"
         <online_repos_preselected config:type="boolean">false</online_repos_preselected>
 
         <!-- FATE #300898, List of external sources accesible during the installation time -->
-        <external_sources_link>http://download.opensuse.org/YaST/Repos/openSUSE_Leap_42.2_Servers.xml</external_sources_link>
+        <external_sources_link>http://download.opensuse.org/YaST/Repos/openSUSE_Leap_42.3_Servers.xml</external_sources_link>
 
         <dropped_packages/>
         <extra_urls config:type="list">
             <!-- Default update repository, bnc #381360 -->
             <extra_url>
-                <baseurl>http://download.opensuse.org/update/leap/42.2/oss/</baseurl>
+                <baseurl>http://download.opensuse.org/update/leap/42.3/oss/</baseurl>
                 <alias>repo-update</alias>
-                <name>openSUSE-Leap-42.2-Update</name>
+                <name>openSUSE-Leap-42.3-Update</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">true</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/update/leap/42.2/non-oss/</baseurl>
+                <baseurl>http://download.opensuse.org/update/leap/42.3/non-oss/</baseurl>
                 <alias>repo-update-non-oss</alias>
-                <name>openSUSE-Leap-42.2-Update-Non-Oss</name>
+                <name>openSUSE-Leap-42.3-Update-Non-Oss</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">true</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
@@ -115,72 +115,72 @@ textdomain="control"
 
             <!-- Replacement for EXTRAURLS and OPTIONALURLS -->
             <extra_url>
-                <baseurl>http://download.opensuse.org/distribution/leap/42.2/repo/oss/</baseurl>
+                <baseurl>http://download.opensuse.org/distribution/leap/42.3/repo/oss/</baseurl>
                 <alias>repo-oss</alias>
-                <name>openSUSE-Leap-42.2-Oss</name>
+                <name>openSUSE-Leap-42.3-Oss</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">true</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/distribution/leap/42.2/repo/non-oss/</baseurl>
+                <baseurl>http://download.opensuse.org/distribution/leap/42.3/repo/non-oss/</baseurl>
                 <alias>repo-non-oss</alias>
-                <name>openSUSE-Leap-42.2-Non-Oss</name>
+                <name>openSUSE-Leap-42.3-Non-Oss</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">true</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/debug/distribution/leap/42.2/repo/oss/</baseurl>
+                <baseurl>http://download.opensuse.org/debug/distribution/leap/42.3/repo/oss/</baseurl>
                 <alias>repo-debug</alias>
-                <name>openSUSE-Leap-42.2-Debug</name>
+                <name>openSUSE-Leap-42.3-Debug</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">false</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/debug/distribution/leap/42.2/repo/non-oss/</baseurl>
+                <baseurl>http://download.opensuse.org/debug/distribution/leap/42.3/repo/non-oss/</baseurl>
                 <alias>repo-debug-non-oss</alias>
-                <name>openSUSE-Leap-42.2-Debug-Non-Oss</name>
+                <name>openSUSE-Leap-42.3-Debug-Non-Oss</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">false</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/debug/update/leap/42.2/oss/</baseurl>
+                <baseurl>http://download.opensuse.org/debug/update/leap/42.3/oss/</baseurl>
                 <alias>repo-debug-update</alias>
-                <name>openSUSE-Leap-42.2-Update-Debug</name>
+                <name>openSUSE-Leap-42.3-Update-Debug</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">false</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/debug/update/leap/42.2/non-oss/</baseurl>
+                <baseurl>http://download.opensuse.org/debug/update/leap/42.3/non-oss/</baseurl>
                 <alias>repo-debug-update-non-oss</alias>
-                <name>openSUSE-Leap-42.2-Update-Debug-Non-Oss</name>
+                <name>openSUSE-Leap-42.3-Update-Debug-Non-Oss</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">false</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/source/distribution/leap/42.2/repo/oss/</baseurl>
+                <baseurl>http://download.opensuse.org/source/distribution/leap/42.3/repo/oss/</baseurl>
                 <alias>repo-source</alias>
-                <name>openSUSE-Leap-42.2-Source</name>
+                <name>openSUSE-Leap-42.3-Source</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">false</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
                 <priority config:type="integer">99</priority>
             </extra_url>
             <extra_url>
-                <baseurl>http://download.opensuse.org/source/distribution/leap/42.2/repo/non-oss/</baseurl>
+                <baseurl>http://download.opensuse.org/source/distribution/leap/42.3/repo/non-oss/</baseurl>
                 <alias>repo-source-non-oss</alias>
-                <name>openSUSE-Leap-42.2-Source-Non-Oss</name>
+                <name>openSUSE-Leap-42.3-Source-Non-Oss</name>
                 <prod_dir>/</prod_dir>
                 <enabled config:type="boolean">false</enabled>
                 <autorefresh config:type="boolean">true</autorefresh>
